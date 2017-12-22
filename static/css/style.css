@@ -7,6 +7,8 @@
     White           : #fff (text, background)
     Black           : #000
 ***************************************************/
+
+
 html, body {
     height : 100%;
 }
@@ -258,11 +260,25 @@ h3 {
 .row .no-gutters [*class=col-] {
     padding-left : 0px;
     padding-right : 0px;
+    margin : auto;
+
+    }
+
+.img-inv {
+    opacity : 0;
     }
 
 
-.img-wrapper {
-    overflow: hidden;}
+/*
+
+.img-wrapper-work {
+
+   width : 250px;
+   height : 250px;
+
+
+   }
+*/
 
 .img-wrapper img {
     transition : transform .5s ease;
@@ -515,7 +531,7 @@ ul.pricing-spec li p{
 ***************************************************/
 
 footer {
-    background-color : #5b6269;
+    background-color : black;
     padding-top : 30px;
     border-top : 5px; solid rgba(0,0,0 0.1);
     }
@@ -534,7 +550,7 @@ footer {
 
 
 #contact-info {
-    background-image : url('../img/world-map.png');
+
     background-repeat : no-repeat;
     background-size : contain;
 }
@@ -613,3 +629,8 @@ form .form-control {
 #footer-menu a:hover {
     color : #34c6d3;
 }
+
+.sub-image1 {
+    margin-left : 5px;
+
+    }
