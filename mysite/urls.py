@@ -18,11 +18,12 @@ from django.contrib import admin
 from .views import home
 from .views import UserCreateView, UserCreateDoneView
 
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', home.as_view()),
     url(r'accounts/', include('django.contrib.auth.urls')),
     url(r'accounts/register/$', UserCreateView.as_view(), name='register'),
     url(r'accounts/register/done/$', UserCreateDoneView.as_view(), name='register_done'),
-
+    url(r'contact/', include('contact.urls'), name='contact' ),
 ]

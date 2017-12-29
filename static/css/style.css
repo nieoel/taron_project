@@ -15,7 +15,9 @@ html, body {
 
 
 body {
-    font-family: 'Spectral SC', serif;
+
+    font-family:'BM JUA','배달의민족 주아',sans-serif;
+
 }
 
 p {
@@ -59,7 +61,8 @@ h3 {
 
 #home-cover {
     height : 100%;
-    background-image : url("../img/benz.jpg") ;
+    width : 100%;
+    background-color : black;
 }
 
 #home-content-box {
@@ -170,9 +173,9 @@ h3 {
     }
 
 .content-title-underline {
-    width : 30px;
+    width : 440px;
     height : 3px;
-    background-color: #34c6d3;
+    background-color: black;
     margin : 0 auto 0 auto;
     }
 
@@ -257,36 +260,49 @@ h3 {
            work
 ***************************************************/
 
-.row .no-gutters [*class=col-] {
-    padding-left : 0px;
-    padding-right : 0px;
-    margin : auto;
+.row.no-gutters [class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
 
-    }
-
-.img-inv {
-    opacity : 0;
-    }
+}
 
 
-/*
 
-.img-wrapper-work {
+.img-wrapper {
 
-   width : 250px;
-   height : 250px;
-
+   width : 500px;
+   height : 300px;
 
    }
-*/
+
+
+.img-wrapper2 {
+   overflow : hidden;
+   width : 300px;
+   height : 200px;
+   margin-left : 20px;
+   }
+
+
+.img-wrapper3 {
+   overflow : hidden;
+   width : 100%;
+   height : 100%;
+   display : inline-block;
+   padding-left : 125px;
+   }
+
+/*
 
 .img-wrapper img {
     transition : transform .5s ease;
     }
-
+*/
+/*
 .img-wrapper img:hover {
     transform : scale(1.5);
-    }
+    }*/
+
 
 
 
@@ -357,7 +373,7 @@ h4.team-member-designation {
 ***************************************************/
 
 #testimonials-cover {
-    background-image : url("../img/bg-testimonials.jpg");
+
 }
 
 #testimonials .content-box {
@@ -366,10 +382,13 @@ h4.team-member-designation {
 
 
 #customers-testimonials {
-    padding : 50px 0 50px 0;}
+   height : 100%;
+   width : 100%;
+   }
 
 .testimonial img {
-    max-width : 250px;
+    width : 100px;
+    height : 780px;
     margin: 0 auto 0 auto;}
 
 .testimonial blockquote {
@@ -582,7 +601,7 @@ form .form-control {
     font-weight : 300;
     padding : 8px 16px ;
     margin-bottom : 20px;
-    color : #fff;
+    color : black;
     }
 
 
@@ -630,7 +649,71 @@ form .form-control {
     color : #34c6d3;
 }
 
-.sub-image1 {
-    margin-left : 5px;
-
+.car-image {
+    width : 100%;
+    height : 100%;
     }
+
+.work-ul {
+    margin-top : 50px;
+    margin-left : 80px;
+    }
+
+.work-ul li {
+    list-style : none;
+    display : inline-block;
+    }
+
+.cal-con {
+    height : 100%;
+    }
+
+.sample-ul li {
+    list-style : none;
+    display : inline-block;
+    }
+
+.work1 {
+    width : 300px;
+    height : 200px;
+    }
+
+.work-logo {
+    width : 300px;
+    height : 200px;
+    }
+
+.sub-div {
+    width : 300px;
+    height : 200px;
+    display : inline-block;
+    }
+
+.detail-div {
+    text-indent : 30px;
+    }
+
+.detail-text {
+    margin-left : 30px;
+    }
+
+.sub-text {
+    margin-left : 20px;
+    }
+
+.bot-img {
+    width : 100%;
+    height : 100%;
+    }
+
+.bot-detail {
+    margin-top : 20px;
+}
+
+.bot-underline {
+    margin : 0;
+    width : 500px;
+    }
+
+.li-nav {
+    margin-left : 60px;}
